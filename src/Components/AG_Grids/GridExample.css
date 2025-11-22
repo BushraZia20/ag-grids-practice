@@ -1,0 +1,108 @@
+/* Scoped to your custom theme */
+.ag-theme-my-dark .ag-paging-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #121212;
+  border-top: 1px solid #2a2a2a;
+}
+
+.ag-theme-my-dark .ag-paging-row-summary-panel {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.ag-theme-my-dark .ag-paging-page-summary-panel {
+  font-weight: 500;
+}
+
+.ag-theme-my-dark .ag-paging-button {
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.ag-theme-my-dark .ag-paging-button:hover {
+  color: red;
+}
+
+.ag-theme-my-dark .ag-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* ************************* */
+
+.transaction-container {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: auto;
+}
+
+.table-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+.transaction-grid .ag-root-wrapper {
+  border: none !important;
+}
+
+.transaction-grid .ag-row {
+  border: none !important;
+  transition: background 0.2s ease;
+}
+
+.transaction-grid .ag-row:hover {
+  background: #f9fafb;
+}
+
+.custom-cell {
+  font-size: 0.95rem;
+  color: #374151;
+  padding: 12px 8px;
+}
+
+.badge {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.amount {
+  font-weight: 600;
+}
+
+.amount.positive {
+  color: #16a34a;
+}
+
+.amount.negative {
+  color: #dc2626;
+}
+
+.see-more {
+  margin-top: 12px;
+  text-align: center;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
