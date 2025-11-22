@@ -23,8 +23,8 @@ const TestCountryStateCity = () => {
           backgroundColor: "lightgreen",
         }}
       >
-        <p>This is dev-bushra changes</p>
-        <p>Creating a merge conflict in dev-bushra</p>
+        <p>This is bushra-dev changes</p>
+        <p>Creating a merge conflict in bushra-dev</p>
       </div>
     </div>
   );
