@@ -11,12 +11,6 @@ const TestCountryStateCity = () => {
 
     const cities = City.getCitiesOfState("IN", "OR");
     console.log("Cities of Odisha:", cities);
-
-    const countryByCode = Country.getCountryByCode("IN");
-    console.log("country by code: ", countryByCode);
-
-    const stateByCountryAndCode = State.getStateByCodeAndCountry("MH", "IN");
-    console.log(stateByCountryAndCode, "stateByCountryAndCode");
   }, []);
 
   return (
