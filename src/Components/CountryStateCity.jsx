@@ -24,7 +24,7 @@ const TestCountryStateCity = () => {
         }}
       >
         <p>This is bushra-dev changes</p>
-        <p>Creating a merge conflict</p>
+        <p>Creating a merge conflict in bushra-dev</p>
       </div>
     </div>
   );
